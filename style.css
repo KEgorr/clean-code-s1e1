@@ -61,9 +61,9 @@ button{
   outline: none;
 }
 
-.edit__button,
-.delete__button,
-.add__button {
+.task__edit-button,
+.task__add-button,
+.task__delete-button {
   background: none;
   border: 0px;
   color: #888;
@@ -73,8 +73,8 @@ button{
   cursor: pointer;
 }
 
-.add__button:hover,
-.edit__button:hover {
+.task__add-button:hover,
+.task__edit-button:hover {
   color: #3a3a3a;
 }
 
@@ -146,13 +146,13 @@ button{
   width: 226px;
 }
 
-.delete__button__img {
+.task__delete-button-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete__button__img:hover {
+.task__delete-button-img:hover {
   transform: rotateZ(0);
 }
 
